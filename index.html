@@ -149,23 +149,23 @@
     </div>
 
     <div id="myModal" class="modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-body">
             <!-- Table  -->
-            <table class="table">
+            <table class="table" border="1">
               <thead>
                 <tr>
                   <th colspan="4" class="text-center">HÓA ĐƠN</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <th scope="col">Chi Tiết</th>
                   <th scope="col">Sử Dụng (KM)</th>
                   <th scope="col">Đơn Giá (VNĐ)</th>
                   <th scope="col">Thành Tiền (VNĐ)</th>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <th scope="row">KM Đầu Tiên</th>
                   <td id="suDung1"></td>
@@ -173,14 +173,11 @@
                   <td id="thanhTien1"></td>
                 </tr>
                 <tr>
-                  <th scope="row">Từ 1->19KM</th>
+                  <th scope="row">Từ 1 -> 19KM</th>
                   <td id="suDung2"></td>
                   <td id="donGia2"></td>
                   <td id="thanhTien2"></td>
                 </tr>
-
-                <!-- several other great bands -->
-
                 <tr>
                   <th scope="row">Từ 19KM Trở Lên</th>
                   <td id="suDung3"></td>
@@ -188,7 +185,7 @@
                   <td id="thanhTien3"></td>
                 </tr>
                 <tr>
-                  <th scope="row">Thời Gian Chờ</th>
+                  <th scope="row">Thời gian chờ trên 3 phút (mỗi 3 phút)</th>
                   <td id="suDung4"></td>
                   <td id="donGia4"></td>
                   <td id="thanhTien4"></td>
@@ -197,7 +194,7 @@
               <tfoot>
                 <tr>
                   <th scope="row" colspan="3" style="text-align: right">
-                    Tổng Tiền
+                    Tổng Tiền:
                   </th>
                   <td colspan="1" id="tongTienHoaDon"></td>
                 </tr>
